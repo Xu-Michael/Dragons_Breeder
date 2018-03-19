@@ -1,11 +1,12 @@
 class Router
   def initialize
-    @controller = PostsController.new
+    @controller = DragonController.new
     @running = true
   end
 
   def run
     print_welcome
+    @controller.load_account
     while @running
       print_menu
       action = gets.chomp.to_i
@@ -17,28 +18,27 @@ class Router
 
   def route_action(action)
     case action
-    when 1 then @controller.index
-    when 2 then @controller.create
-    when 3 then @controller.update
-    when 4 then @controller.destroy
-    when 5 then @controller.upvote
-    when 6 then stop
+    when 1 then @controller.list
+    when 2 then @controller.hatch
+    when 3 then @controller.sell
+    when 4 then @controller.explore_breeds
+    when 5 then @controller.save_account
+                stop
     end
   end
 
   def actions
     [
-      "List all posts",
-      "Add a post",
-      "Edit a post title & url",
-      "Delete a post",
-      "Vote for a post",
+      "View all your dragons",
+      "Hatch a new baby dragon",
+      "Sell a dragon",
+      "Research breeds",
       "Exit out of program"
     ]
   end
 
   def print_menu
-    puts "\n--\nWhat do you want to do?"
+    puts "\nCash: #{@controller.account.cash}\nWhat do you want to do?"
     actions.each_with_index do |action, index|
       puts "#{index + 1} - #{action}"
     end
@@ -46,9 +46,9 @@ class Router
   end
 
   def print_welcome
-    puts "-----------------------------"
-    puts "Welcome to HackerNewsCopyCat!"
-    puts "-----------------------------"
+    puts "----------------------------"
+    puts "Welcome to DragonBreeder"
+    puts "----------------------------"
   end
 
   def stop

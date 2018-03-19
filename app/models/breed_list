@@ -1,0 +1,126 @@
+INSERT INTO breeds (name, rarity) VALUES ('Brown Forest Drake', 0);
+INSERT INTO breeds (name, rarity) VALUES ('Red Forest Drake', 0);
+INSERT INTO breeds (name, rarity) VALUES ('Green Forest Drake', 0);
+INSERT INTO breeds (name, rarity) VALUES ('Blue Forest Drake', 0);
+INSERT INTO breeds (name, rarity) VALUES ('Black Forest Drake', 1);
+INSERT INTO breeds (name, rarity) VALUES ('Silver Forest Drake', 1);
+INSERT INTO breeds (name, rarity) VALUES ('Golden Forest Drake', 2);
+
+INSERT INTO breeds (name, rarity) VALUES ('Brown River Drake', 0);
+INSERT INTO breeds (name, rarity) VALUES ('Red River Drake', 0);
+INSERT INTO breeds (name, rarity) VALUES ('Green River Drake', 0);
+INSERT INTO breeds (name, rarity) VALUES ('Blue River Drake', 0);
+INSERT INTO breeds (name, rarity) VALUES ('Black River Drake', 1);
+INSERT INTO breeds (name, rarity) VALUES ('Silver River Drake', 1);
+INSERT INTO breeds (name, rarity) VALUES ('Golden River Drake', 2);
+
+INSERT INTO breeds (name, rarity) VALUES ('Brown Hunchbacked Wyvern', 0);
+INSERT INTO breeds (name, rarity) VALUES ('Red Hunchbacked Wyvern', 0);
+INSERT INTO breeds (name, rarity) VALUES ('Green Hunchbacked Wyvern', 0);
+INSERT INTO breeds (name, rarity) VALUES ('Blue Hunchbacked Wyvern', 0);
+INSERT INTO breeds (name, rarity) VALUES ('Onyx Hunchbacked Wyvern', 1);
+INSERT INTO breeds (name, rarity) VALUES ('Silver Hunchbacked Wyvern', 1);
+INSERT INTO breeds (name, rarity) VALUES ('Golden Hunchbacked Wyvern', 2);
+
+INSERT INTO breeds (name, rarity) VALUES ('Brown Giant Rock Drake', 1);
+INSERT INTO breeds (name, rarity) VALUES ('Red Giant Rock Drake', 1);
+INSERT INTO breeds (name, rarity) VALUES ('Green Giant Rock Drake', 1);
+INSERT INTO breeds (name, rarity) VALUES ('Blue Giant Rock Drake', 1);
+INSERT INTO breeds (name, rarity) VALUES ('Onyx Giant Rock Drake', 2);
+INSERT INTO breeds (name, rarity) VALUES ('Silver Giant Rock Drake', 2);
+INSERT INTO breeds (name, rarity) VALUES ('Golden Giant Rock Drake', 3);
+
+INSERT INTO breeds (name, rarity) VALUES ('Brown Cave Wyvern', 1);
+INSERT INTO breeds (name, rarity) VALUES ('Red Cave Wyvern', 1);
+INSERT INTO breeds (name, rarity) VALUES ('Green Cave Wyvern', 1);
+INSERT INTO breeds (name, rarity) VALUES ('Blue Cave Wyvern', 1);
+INSERT INTO breeds (name, rarity) VALUES ('Onyx Cave Wyvern', 2);
+INSERT INTO breeds (name, rarity) VALUES ('Silver Cave Wyvern', 2);
+INSERT INTO breeds (name, rarity) VALUES ('Golden Cave Wyvern', 3);
+
+INSERT INTO breeds (name, rarity) VALUES ('Brown Mountain Wyvern', 2);
+INSERT INTO breeds (name, rarity) VALUES ('Red Mountain Wyvern', 2);
+INSERT INTO breeds (name, rarity) VALUES ('Green Mountain Wyvern', 2);
+INSERT INTO breeds (name, rarity) VALUES ('Blue Mountain Wyvern', 2);
+INSERT INTO breeds (name, rarity) VALUES ('Onyx Mountain Wyvern', 3);
+INSERT INTO breeds (name, rarity) VALUES ('Silver Mountain Wyvern', 3);
+INSERT INTO breeds (name, rarity) VALUES ('Golden Mountain Wyvern', 4);
+
+INSERT INTO breeds (name, rarity) VALUES ('Brown Lesser Valley Wyvern', 2);
+INSERT INTO breeds (name, rarity) VALUES ('Red Lesser Valley Wyvern', 2);
+INSERT INTO breeds (name, rarity) VALUES ('Green Lesser Valley Wyvern', 2);
+INSERT INTO breeds (name, rarity) VALUES ('Blue Lesser Valley Wyvern', 2);
+INSERT INTO breeds (name, rarity) VALUES ('Onyx Lesser Valley Wyvern', 3);
+INSERT INTO breeds (name, rarity) VALUES ('Silver Lesser Valley Wyvern', 3);
+INSERT INTO breeds (name, rarity) VALUES ('Golden Lesser Valley Wyvern', 4);
+
+INSERT INTO breeds (name, rarity) VALUES ('Brown Great Valley Wyvern', 3);
+INSERT INTO breeds (name, rarity) VALUES ('Red Great Valley Wyvern', 3);
+INSERT INTO breeds (name, rarity) VALUES ('Green Great Valley Wyvern', 3);
+INSERT INTO breeds (name, rarity) VALUES ('Blue Great Valley Wyvern', 3);
+INSERT INTO breeds (name, rarity) VALUES ('Onyx Great Valley Wyvern', 4);
+INSERT INTO breeds (name, rarity) VALUES ('Silver Great Valley Wyvern', 4);
+INSERT INTO breeds (name, rarity) VALUES ('King Great Valley Wyvern', 5);
+
+INSERT INTO breeds (name, rarity) VALUES ('Cloudy Lesser Sky Dragon', 3);
+INSERT INTO breeds (name, rarity) VALUES ('Flaming Lesser Sky Dragon', 3);
+INSERT INTO breeds (name, rarity) VALUES ('Toxic Lesser Sky Dragon', 3);
+INSERT INTO breeds (name, rarity) VALUES ('Misty Lesser Sky Dragon', 3);
+INSERT INTO breeds (name, rarity) VALUES ('Undead Lesser Sky Dragon', 4);
+INSERT INTO breeds (name, rarity) VALUES ('Holy Lesser Sky Dragon', 4);
+INSERT INTO breeds (name, rarity) VALUES ('Golden Lesser Sky Dragon', 5);
+
+INSERT INTO breeds (name, rarity) VALUES ('Mud Forest Dragon', 4);
+INSERT INTO breeds (name, rarity) VALUES ('Fire Forest Dragon', 4);
+INSERT INTO breeds (name, rarity) VALUES ('Poison Forest Dragon', 4);
+INSERT INTO breeds (name, rarity) VALUES ('Water Forest Dragon', 4);
+INSERT INTO breeds (name, rarity) VALUES ('Night Forest Dragon', 5);
+INSERT INTO breeds (name, rarity) VALUES ('Shining Forest Dragon', 5);
+INSERT INTO breeds (name, rarity) VALUES ('Monarch Forest Dragon', 6);
+
+INSERT INTO breeds (name, rarity) VALUES ('Mud Mountain Dragon', 4);
+INSERT INTO breeds (name, rarity) VALUES ('Fire Mountain Dragon', 4);
+INSERT INTO breeds (name, rarity) VALUES ('Poison Mountain Dragon', 4);
+INSERT INTO breeds (name, rarity) VALUES ('Ice Mountain Dragon', 4);
+INSERT INTO breeds (name, rarity) VALUES ('Skull Mountain Dragon', 5);
+INSERT INTO breeds (name, rarity) VALUES ('Lightning Mountain Dragon', 5);
+INSERT INTO breeds (name, rarity) VALUES ('King Mountain Dragon', 8);
+
+INSERT INTO breeds (name, rarity) VALUES ('Brown Volcanic Dragon', 5);
+INSERT INTO breeds (name, rarity) VALUES ('Red Volcanic Dragon', 5);
+INSERT INTO breeds (name, rarity) VALUES ('Green Volcanic Dragon', 5);
+INSERT INTO breeds (name, rarity) VALUES ('Blue Volcanic Dragon', 5);
+INSERT INTO breeds (name, rarity) VALUES ('Black Volcanic Dragon', 6);
+INSERT INTO breeds (name, rarity) VALUES ('Silver Volcanic Dragon', 6);
+INSERT INTO breeds (name, rarity) VALUES ('Monarch Volcanic Dragon', 8);
+
+INSERT INTO breeds (name, rarity) VALUES ('Cloudy Giant Cave Dragon', 6);
+INSERT INTO breeds (name, rarity) VALUES ('Flaming Giant Cave Dragon', 6);
+INSERT INTO breeds (name, rarity) VALUES ('Toxic Giant Cave Dragon', 6);
+INSERT INTO breeds (name, rarity) VALUES ('Misty Giant Cave Dragon', 6);
+INSERT INTO breeds (name, rarity) VALUES ('Undead Giant Cave Dragon', 7);
+INSERT INTO breeds (name, rarity) VALUES ('Holy Giant Cave Dragon', 7);
+INSERT INTO breeds (name, rarity) VALUES ('Monarch Giant Cave Dragon', 9);
+
+INSERT INTO breeds (name, rarity) VALUES ('Cloudy Giant Sky Dragon', 7);
+INSERT INTO breeds (name, rarity) VALUES ('Flaming Giant Sky Dragon', 7);
+INSERT INTO breeds (name, rarity) VALUES ('Toxic Giant Sky Dragon', 7);
+INSERT INTO breeds (name, rarity) VALUES ('Misty Giant Sky Dragon', 7);
+INSERT INTO breeds (name, rarity) VALUES ('Undead Giant Sky Dragon', 8);
+INSERT INTO breeds (name, rarity) VALUES ('Holy Giant Sky Dragon', 8);
+INSERT INTO breeds (name, rarity) VALUES ('Monarch Giant Sky Dragon', 9);
+
+INSERT INTO breeds (name, rarity) VALUES ('Cloudy Emperor Dragon', 8);
+INSERT INTO breeds (name, rarity) VALUES ('Flaming Emperor Dragon', 8);
+INSERT INTO breeds (name, rarity) VALUES ('Toxic Emperor Dragon', 8);
+INSERT INTO breeds (name, rarity) VALUES ('Misty Emperor Dragon', 8);
+INSERT INTO breeds (name, rarity) VALUES ('Undead Emperor Dragon', 9);
+INSERT INTO breeds (name, rarity) VALUES ('Holy Emperor Dragon', 9);
+INSERT INTO breeds (name, rarity) VALUES ('Giant Emperor Dragon', 9);
+
+INSERT INTO breeds (name, rarity) VALUES ('The Rising Star Dragon', 10);
+INSERT INTO breeds (name, rarity) VALUES ('The Tide Star Dragon', 10);
+INSERT INTO breeds (name, rarity) VALUES ('The Falling Star Dragon', 10);
+INSERT INTO breeds (name, rarity) VALUES ('The Shooting Star Dragon', 10);
+INSERT INTO breeds (name, rarity) VALUES ('The Morning Star Dragon', 10);
+INSERT INTO breeds (name, rarity) VALUES ('The Evening Star Dragon', 10);

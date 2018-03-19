@@ -1,12 +1,11 @@
 class Breed
   attr_reader :id
-  attr_accessor :breed, :rarity, :pedigree, :value
+  attr_accessor :rarity, :name
 
   def initialize(attributes = {})
     @id = attributes[:id]
     @name = attributes[:name]   # Breed object with breed name and rarity
     @rarity = attributes[:rarity] || 0
-    save
   end
 
 # ============== Standard CRUD Methods ==============
@@ -25,7 +24,7 @@ class Breed
 
   def self.find(id)
     DB.results_as_hash = true
-    breed_hash = DB.execute("SELECT * FROM breed_hash WHERE breeds.id = ?", id).first
+    breed_hash = DB.execute("SELECT * FROM breeds WHERE breeds.id = ?", id).first
     if breed_hash
       Breed.new(id: breed_hash['id'], name: breed_hash['name'], rarity: breed_hash['rarity'])
     else
@@ -35,7 +34,7 @@ class Breed
 
   def self.assign(rating)
     DB.results_as_hash = true
-    breed_hash = DB.execute("SELECT * FROM breeds WHERE breed.rarity = ?", rating).flatten.sample
+    breed_hash = DB.execute("SELECT * FROM breeds WHERE rarity = ?", rating).flatten.sample
     Breed.new(id: breed_hash['id'], name: breed_hash['name'], rarity: breed_hash['rarity'])
   end
 
